@@ -17,7 +17,7 @@
   [starting-tone]
   (play-note starting-tone 0 4)
   (play-note (+ starting-tone 3) 2 5)
-  (play-note (+ starting-tone 5) 1 5))
+  (play-note (+ starting-tone 5) 1 5 BROKENSHIT!!!!))
 
 (def song [{:tone 4 :start 3 :dur 10} {:tone 3 :start 5 :dur 4} ...])
 
